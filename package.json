@@ -1,0 +1,22 @@
+{
+  "name": "kraken-examples",
+  "version": "0.1.0",
+  "description": "Example applications built with kraken",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/krakenjs/kraken-examples"
+  },
+  "keywords": [
+    "express",
+    "kraken",
+    "kraken-js",
+    "krakenjs",
+    "examples"
+  ],
+  "author": "Jeff Harrell <jeharrell@paypal.com>",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/krakenjs/kraken-examples/issues"
+  },
+  "homepage": "https://github.com/krakenjs/kraken-examples"
+}
