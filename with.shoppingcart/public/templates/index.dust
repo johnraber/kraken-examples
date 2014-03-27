@@ -16,7 +16,7 @@
 
 							<h3 class="nm-np">{.name}</h3>
 							<h4 class="nm-np">{.prettyPrice}</h4>
-							<input type="submit" value="{@pre type="content" key="index.addToCart"/}">
+							<input type="submit" value="{@pre type="content" key="addToCart"/}">
 							<!--If we don't add the Cross-Site Request Forgery token, this POST will be rejected-->
 							<input type="hidden" name="_csrf" value="{_csrf}">
 						</form>

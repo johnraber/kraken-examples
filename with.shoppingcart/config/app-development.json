@@ -1,22 +1,21 @@
 {
 
+    "express": {
+        "view cache": false,
+        "view engine": "dust",
+        "views": "path:./public/templates"
+    },
+
     "view engines": {
         "dust": {
-            "module": "adaro",
+            "module": "engine-munger",
             "renderer": {
                 "method": "dust",
                 "arguments": [{ "cache": false }]
             }
         }
     },
-
-    "express": {
-        "view cache": false,
-        "view engine": "dust",
-        "views": "path:./public/templates",
-        "route": "/"
-    },
-    "databaseConfig": {
+     "databaseConfig": {
         "host": "localhost",
         "database": "shocart"
     },
@@ -26,4 +25,5 @@
         "client_id": "EBWKjlELKMYqRNQ6sYvFo64FtaRLRR5BdHEESmha49TM",
         "client_secret": "EO422dn3gQLgDbuwqTjzrFgFtaRLRR5BdHEESmha49TM"
     }
+
 }

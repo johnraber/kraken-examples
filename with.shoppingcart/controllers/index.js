@@ -13,6 +13,9 @@ module.exports = function (app) {
 			if (err) {
 				console.log(err);
 			}
+            prods.forEach(function(prod) {
+                prod.prettyPrice = prod.prettyPrice();
+            });
 			var model = {
 				products: prods
 			}

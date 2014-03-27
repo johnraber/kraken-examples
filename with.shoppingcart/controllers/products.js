@@ -17,7 +17,7 @@ module.exports = function (server) {
 			}
 			prods.forEach(function(prod) {
 				prod.prettyPrice = prod.prettyPrice();
-			})
+			});
 			var model =
 			{
 				products: prods

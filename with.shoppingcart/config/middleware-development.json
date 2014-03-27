@@ -1,12 +1,18 @@
 {
     "middleware": {
+
         "devtools": {
             "enabled": true,
             "priority": 35,
             "module": "kraken-devtools",
             "arguments": [
                 "path:./public",
-                "path:./.build", {
+                "path:./.build",
+                {
+                    "livereload": {
+                        "debug": false,
+                        "exts": [ "dust", "less" ]
+                    },
                     "dust": {
                         "module": "kraken-devtools/lib/plugins/dust",
                         "files": "/templates/**/*.js",
@@ -23,5 +29,6 @@
                 }
             ]
         }
+
     }
 }
