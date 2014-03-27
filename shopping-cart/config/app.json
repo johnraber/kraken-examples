@@ -1,0 +1,19 @@
+{
+
+    "view engines": {
+        "js": {
+            "module": "adaro",
+            "renderer": {
+                "method": "js",
+                "arguments": [{ "cache": false }]
+            }
+        }
+    },
+    
+    "express": {
+        "view cache": false,
+        "view engine": "js",
+        "views": "path:./.build/templates",
+        "route": "/"
+    }
+}
