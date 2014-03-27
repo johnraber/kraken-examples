@@ -1,4 +1,3 @@
-
 # i18n-example
 
 An example kraken 1.0 app with i18n.
@@ -17,7 +16,9 @@ $ node .
 In your browser:
 
 localhost:8000/setLocale/en-US
+(or)
 localhost:8000/setLocale/es-ES
+(or)
 localhost:8000/setLocale/de-DE
 
 This will automatically set the locale and redirect to the index page in the right locale
