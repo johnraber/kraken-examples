@@ -25,6 +25,8 @@ This will automatically set the locale and redirect to the index page in the rig
 ###What does the sample app demonstrate ?
 * [Setting up middleware-config to be invoked after cookie parser middleware is set up](https://github.com/krakenjs/kraken-examples/blob/master/i18n-example/config/middleware.json#L26)
 
+* [Adding locale specific property files](https://github.com/krakenjs/kraken-examples/tree/master/i18n-example/locales)
+
 * [Setting up middleware to populate locale for each request](https://github.com/krakenjs/kraken-examples/blob/master/i18n-example/lib/locale.js#L4)
 
 * [Setting the locale in a cookie](https://github.com/krakenjs/kraken-examples/blob/master/i18n-example/controllers/index.js#L16)
