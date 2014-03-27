@@ -15,8 +15,8 @@
   ],
   "author": "Jeff Harrell <jeharrell@paypal.com>",
   "contributors": {
-      "name": "Poornima Venkatakrishnan",
-      "email": "pvenkatakrishnan@paypal.com"
+    "name": "Poornima Venkatakrishnan",
+    "email": "pvenkatakrishnan@paypal.com"
   },
   "license": "Apache 2.0",
   "bugs": {
@@ -33,7 +33,12 @@
     "adaro": "^0.1.5",
     "dustjs-linkedin": "^2.0.3",
     "localizr": "git://github.com/totherik/localizr.git",
-    "less": "^1.7.0"
+    "less": "^1.7.0",
+    "mongoose": "~3.8.8",
+    "bcrypt": "~0.7.7",
+    "passport": "~0.2.0",
+    "passport-local": "~1.0.0",
+    "connect-flash": "~0.1.1"
   },
   "devDependencies": {
     "mocha": "^1.18.0",
