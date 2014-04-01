@@ -1,4 +1,4 @@
 kraken-examples
 ===============
 
-Example applications built with kraken
+Example applications built with kraken.
