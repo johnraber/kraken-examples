@@ -14,10 +14,13 @@
     "examples"
   ],
   "author": "Jeff Harrell <jeharrell@paypal.com>",
-  "contributors": {
+  "contributors": [{
     "name": "Poornima Venkatakrishnan",
     "email": "pvenkatakrishnan@paypal.com"
-  },
+  }, {
+    "name": "Matt Edelman",
+    "email": "medelman@paypal.com"
+  }],
   "license": "Apache 2.0",
   "bugs": {
     "url": "https://github.com/krakenjs/kraken-examples/issues"
