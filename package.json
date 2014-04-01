@@ -15,8 +15,8 @@
   ],
   "author": "Jeff Harrell <jeharrell@paypal.com>",
   "contributors": {
-      "name": "Poornima Venkatakrishnan",
-      "email": "pvenkatakrishnan@paypal.com"
+    "name": "Poornima Venkatakrishnan",
+    "email": "pvenkatakrishnan@paypal.com"
   },
   "license": "Apache 2.0",
   "bugs": {
@@ -26,13 +26,13 @@
   "dependencies": {
     "kraken-js": "git://github.com/jeffharrell/kraken-js.git#kraken.next",
     "kraken-devtools": "git://github.com/jeffharrell/kraken-devtools.git",
-    "engine-munger": "git://github.com/pvenkatakrishnan/engine-munger.git",
+    "engine-munger": "~0.1.0",
     "express": "~3.5.0",
     "dustjs-helpers": "^1.2.0",
     "requirejs": "^2.1.11",
     "adaro": "^0.1.5",
     "dustjs-linkedin": "^2.0.3",
-    "localizr": "git://github.com/totherik/localizr.git",
+    "localizr": "~0.1.0",
     "less": "^1.7.0"
   },
   "devDependencies": {
@@ -43,7 +43,7 @@
     "grunt-contrib-clean": "^0.5.0",
     "grunt-config-dir": "^0.3.2",
     "grunt-copy-to": "0.0.10",
-    "grunt-localizr": "git://github.com/pvenkatakrishnan/grunt-localizr.git",
+    "grunt-localizr": "~0.1.0",
     "grunt-contrib-jshint": "^0.6.5",
     "grunt": "^0.4.4",
     "grunt-contrib-less": "^0.9.0",
