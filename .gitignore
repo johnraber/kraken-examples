@@ -1,2 +1,8 @@
 .idea/
+**/.build
+*.log
+**/*.log
 node_modules/
+**/node_modules
+**/package.json
+*/**/.DS_Store
