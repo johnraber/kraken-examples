@@ -29,7 +29,7 @@
   "dependencies": {
     "kraken-js": "git://github.com/jeffharrell/kraken-js.git#kraken.next",
     "kraken-devtools": "git://github.com/jeffharrell/kraken-devtools.git",
-    "engine-munger": "git://github.com/pvenkatakrishnan/engine-munger.git",
+    "engine-munger": "git://github.com/krakenjs/engine-munger.git",
     "express": "~3.5.0",
     "dustjs-helpers": "^1.2.0",
     "requirejs": "^2.1.11",
