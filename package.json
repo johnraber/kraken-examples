@@ -21,6 +21,9 @@
     "name": "Matt Edelman",
     "email": "medelman@paypal.com"
   }],
+  "scripts": {
+    "start": "node index.js"
+  },
   "license": "Apache 2.0",
   "bugs": {
     "url": "https://github.com/krakenjs/kraken-examples/issues"
