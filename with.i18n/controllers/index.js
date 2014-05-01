@@ -1,20 +1,13 @@
 'use strict';
 
-
 var IndexModel = require('../models/index');
 
-
-module.exports = function (app) {
-
+exports.index = function (req, res) {
     var model = new IndexModel();
+    res.render('index', model);
+};
 
-    app.get('/', function (req, res) {
-        res.render('index', model);
-    });
-
-    app.get('/setLocale/:locale', function (req, res) {
-        res.cookie('locale', req.params.locale);
-        res.redirect('/');
-    });
-
+exports.setLocale = function (req, res) {
+    res.cookie('locale', req.params.locale);
+    res.redirect('/');
 };
