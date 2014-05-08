@@ -47,7 +47,7 @@
     "connect-flash": "^0.1.1",
     "paypal-rest-sdk": "^0.6.4",
     "debuglog": "^1.0.1",
-    "localeResolver": "git+https://github.com/krakenjs/localeResolver.git"
+    "localeresolver": "~0.1.0"
   },
   "devDependencies": {
     "mocha": "^1.18.0",
