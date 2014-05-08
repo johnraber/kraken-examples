@@ -1,0 +1,182 @@
+// Currently all users with an account MUST have a default country and language preference so
+// there is no need to check if user is logged in AND they have a country or language preference set
+
+
+rule loggedInUserAndLangUrlQueryParam {
+    salience: 10;
+    when {
+        lf : LocaleFactors isTrue(lf.loggedInUser) &&
+            !isUndefinedOrNull(lf.langUrlQueryParam) &&
+            localeFactory.isLangValidForCountry(lf.langUrlQueryParam, lf.userCountryPref);
+    }
+    then {
+        modify(lf, function() {
+            this.country =  lf.userCountryPref;
+            this.lang = lf.langUrlQueryParam;
+        });
+    }
+}
+
+rule loggedInUserAndLangCookie {
+    salience: 9;
+    when {
+        lf : LocaleFactors isTrue(lf.loggedInUser) &&
+            !isUndefinedOrNull(lf.langCookie) &&
+            localeFactory.isLangValidForCountry(lf.langCookie, lf.userCountryPref);
+    }
+    then {
+        modify(lf, function() {
+            this.country = lf.userCountryPref;
+            this.lang = lf.langCookie;
+        });
+    }
+}
+
+// user must have their country and lang preferences set for this rule to fire AND
+// it is assumed that the country and lang preference have already been validated
+rule loggedInUser {
+    salience: 8;
+    when {
+           lf : LocaleFactors isTrue(lf.loggedInUser) &&
+                !isUndefinedOrNull(lf.userCountryPref) &&
+                !isUndefinedOrNull(lf.userLangPref);
+    }
+    then {
+       modify(lf, function() {
+            this.country = lf.userCountryPref;
+            this.lang = lf.userLangPref;
+        });
+
+    }
+}
+
+rule loggedInUserAndLangBrowserAcceptHeader {
+    salience: 7;
+    when {
+        lf : LocaleFactors isTrue(lf.loggedInUser) &&
+            !isUndefinedOrNull(lf.langBrowserAcceptHeader) &&
+            localeFactory.isLangValidForCountry(lf.langBrowserAcceptHeader, lf.userCountryPref);
+    }
+    then {
+        modify(lf, function() {
+            this.country = lf.userCountryPref;
+            this.lang = lf.langBrowserAcceptHeader;
+        });
+    }
+}
+
+
+// country URL query param cases
+rule countryUrlQueryParamAndLangUrlQueryParam {
+    salience: 6;
+    when {
+        lf : LocaleFactors !isUndefinedOrNull(lf.countryUrlQueryParam) &&
+             !isUndefinedOrNull(lf.langUrlQueryParam) &&
+             localeFactory.isLangValidForCountry(lf.langUrlQueryParam, lf.countryUrlQueryParam);
+    }
+    then {
+        modify(lf, function() {
+            this.country = lf.countryUrlQueryParam;
+            this.lang = lf.langUrlQueryParam;
+        });
+    }
+}
+
+
+// don't assume lang cookie is vetted because that is easily modified by the client/browser user
+rule countryUrlQueryParamAndLangCookie {
+    salience: 5;
+    when {
+        lf : LocaleFactors !isUndefinedOrNull(lf.countryUrlQueryParam) &&
+             !isUndefinedOrNull(lf.langCookie) &&
+             localeFactory.isLangValidForCountry(lf.langCookie, lf.countryUrlQueryParam);
+    }
+    then {
+        modify(lf, function() {
+            this.country = lf.countryUrlQueryParam;
+            this.lang = lf.langCookie;
+        });
+    }
+}
+
+rule countryUrlQueryParamAndLangBrowserAcceptHeader {
+    salience: 4;
+    when {
+        lf : LocaleFactors !isUndefinedOrNull(lf.countryUrlQueryParam) &&
+            !isUndefinedOrNull(lf.langBrowserAcceptHeader) &&
+            localeFactory.isLangValidForCountry(lf.langBrowserAcceptHeader, lf.countryUrlQueryParam);
+    }
+    then {
+        modify(lf, function() {
+            this.country = lf.countryUrlQueryParam;
+            this.lang = lf.langBrowserAcceptHeader;
+        });
+    }
+}
+
+// Country COOKIE cases
+
+// don't assume country cookie is vetted because that is easily modified by the client/browser user
+rule countryCookieAndLangUrlQueryParam {
+    salience: 3;
+    when {
+    // LANG country component of cookie
+        lf : LocaleFactors !isUndefinedOrNull(lf.countryCookie) &&
+           !isUndefinedOrNull(lf.langUrlQueryParam) &&
+           localeFactory.isLangValidForCountry(lf.langUrlQueryParam, lf.countryCookie);
+    }
+    then {
+        modify(lf, function() {
+            this.country = lf.countryCookie;
+            this.lang = lf.langUrlQueryParam;
+        });
+    }
+}
+
+// don't assume country and lang cookies are vetted because that is easily modified by the client/browser user
+rule countryCookieAndLangCookie {
+    salience: 2;
+    when {
+        lf : LocaleFactors !isUndefinedOrNull(lf.countryCookie) &&
+             !isUndefinedOrNull(lf.langCookie)  &&
+              localeFactory.isLangValidForCountry(lf.langCookie, lf.countryCookie);
+    }
+    then {
+        modify(lf, function() {
+            this.country = lf.countryCookie;
+            this.lang = lf.langCookie;
+        });
+    }
+}
+
+// don't assume country cookie is vetted because that is easily modified by the client/browser user
+rule countryCookieAndLangBrowserAcceptHeader {
+    salience: 1;
+    when {
+        lf : LocaleFactors !isUndefinedOrNull(lf.countryCookie) &&
+            !isUndefinedOrNull(lf.langBrowserAcceptHeader) &&
+            localeFactory.isLangValidForCountry(lf.langBrowserAcceptHeader, lf.countryCookie);
+    }
+    then {
+        modify(lf, function() {
+            this.country = lf.countryCookie;
+            this.lang = lf.langBrowserAcceptHeader;
+        });
+    }
+}
+
+rule Default {
+    salience: 0;
+    when {
+        lf : LocaleFactors isUndefinedOrNull(lf.loggedIn) && isUndefinedOrNull(lf.countryUrlQueryParam) &&
+            isUndefinedOrNull(lf.countryCookie);
+    }
+    then {
+        modify(lf, function() {
+            this.country =  LocaleFactors.defaults.defaultCountry;
+            this.lang = LocaleFactors.defaults.defaultLang;
+        });
+    }
+}
+
+

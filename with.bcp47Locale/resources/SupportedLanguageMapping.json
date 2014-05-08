@@ -1,0 +1,1042 @@
+{
+    "VU": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "VN": [
+        "en-US"
+    ],
+    "EC": [
+        "fr-FR",
+        "en-US",
+        "es-US",
+        "zh-Hans-CN"
+    ],
+    "DZ": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "VG": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "VE": [
+        "fr-FR",
+        "en-US",
+        "es-US",
+        "zh-Hans-CN"
+    ],
+    "DM": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "DO": [
+        "fr-FR",
+        "en-US",
+        "es-US",
+        "zh-Hans-CN"
+    ],
+    "VC": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "VA": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "DE": [
+        "de-DE",
+        "en-US"
+    ],
+    "UY": [
+        "fr-FR",
+        "en-US",
+        "es-US",
+        "zh-Hans-CN"
+    ],
+    "DK": [
+        "en-US",
+        "da-DK"
+    ],
+    "DJ": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "US": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "UG": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "UA": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN",
+        "ru-RU"
+    ],
+    "ET": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "ES": [
+        "es-ES",
+        "en-US"
+    ],
+    "ER": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "EG": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "TZ": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "EE": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN",
+        "ru-RU"
+    ],
+    "TT": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "TW": [
+        "zh-Hant-TW",
+        "en-US"
+    ],
+    "TV": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "GD": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "GE": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "GF": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "GA": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "GB": [
+        "en-GB"
+    ],
+    "FR": [
+        "fr-FR",
+        "en-US"
+    ],
+    "FO": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "da-DK",
+        "zh-Hans-CN"
+    ],
+    "FK": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "FJ": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "FM": [
+        "en-US"
+    ],
+    "FI": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "WS": [
+        "en-US"
+    ],
+    "GY": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "GW": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "GT": [
+        "fr-FR",
+        "en-US",
+        "es-US",
+        "zh-Hans-CN"
+    ],
+    "GR": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "GP": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "WF": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "GN": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "GM": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "GL": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "da-DK",
+        "zh-Hans-CN"
+    ],
+    "GI": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "RE": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "RO": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "AT": [
+        "de-DE",
+        "en-US"
+    ],
+    "AR": [
+        "en-US",
+        "es-US"
+    ],
+    "QA": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "AW": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "AU": [
+        "en-AU"
+    ],
+    "AZ": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "BA": [
+        "en-US"
+    ],
+    "PT": [
+        "fr-FR",
+        "pt-PT",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "AD": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "PW": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "AG": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "AE": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "AL": [
+        "en-US"
+    ],
+    "AI": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "AO": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "AM": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "AN": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "TG": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "BW": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "TD": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "BS": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "TJ": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "BR": [
+        "pt-BR",
+        "en-US"
+    ],
+    "TH": [
+        "en-GB",
+        "th-TH"
+    ],
+    "BT": [
+        "en-US"
+    ],
+    "TO": [
+        "en-US"
+    ],
+    "TN": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "TM": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "CA": [
+        "fr-CA",
+        "en-US"
+    ],
+    "TR": [
+        "en-US",
+        "tr-TR"
+    ],
+    "BZ": [
+        "fr-FR",
+        "en-US",
+        "es-US",
+        "zh-Hans-CN"
+    ],
+    "BF": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "SV": [
+        "fr-FR",
+        "en-US",
+        "es-US",
+        "zh-Hans-CN"
+    ],
+    "BG": [
+        "en-US"
+    ],
+    "BH": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "ST": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "BI": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "BB": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "SZ": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "BE": [
+        "fr-FR",
+        "nl-NL",
+        "en-US"
+    ],
+    "BN": [
+        "en-US"
+    ],
+    "BO": [
+        "fr-FR",
+        "en-US",
+        "es-US",
+        "zh-Hans-CN"
+    ],
+    "C2": [
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "BJ": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "TC": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "BM": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "CZ": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "SC": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "CY": [
+        "en-US"
+    ],
+    "SE": [
+        "sv-SE",
+        "en-US"
+    ],
+    "SH": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "CV": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "SG": [
+        "en-GB"
+    ],
+    "SJ": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "SI": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "SL": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "SK": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "SN": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "SM": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "SO": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "SR": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "RS": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "CG": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "RU": [
+        "en-US",
+        "ru-RU"
+    ],
+    "CH": [
+        "de-DE",
+        "fr-FR",
+        "en-US"
+    ],
+    "RW": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "CD": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "CR": [
+        "fr-FR",
+        "en-US",
+        "es-US",
+        "zh-Hans-CN"
+    ],
+    "CO": [
+        "fr-FR",
+        "en-US",
+        "es-US",
+        "zh-Hans-CN"
+    ],
+    "CN": [
+        "zh-Hans-CN"
+    ],
+    "SA": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "CK": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "CL": [
+        "fr-FR",
+        "en-US",
+        "es-US",
+        "zh-Hans-CN"
+    ],
+    "SB": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "LV": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN",
+        "ru-RU"
+    ],
+    "LU": [
+        "de-DE",
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "LT": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN",
+        "ru-RU"
+    ],
+    "LS": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "MG": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "MH": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "ML": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "MA": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "MV": [
+        "en-US"
+    ],
+    "MU": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "MX": [
+        "en-US",
+        "es-US"
+    ],
+    "MW": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "MZ": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "MY": [
+        "en-US"
+    ],
+    "MN": [
+        "en-US"
+    ],
+    "MR": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "MQ": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "MT": [
+        "en-US"
+    ],
+    "MS": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "NF": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "NI": [
+        "fr-FR",
+        "en-US",
+        "es-US",
+        "zh-Hans-CN"
+    ],
+    "NL": [
+        "nl-NL",
+        "en-US"
+    ],
+    "NA": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "NC": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "NE": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "NZ": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "NU": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "NR": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "NP": [
+        "en-US"
+    ],
+    "NO": [
+        "nb-NO",
+        "en-US"
+    ],
+    "OM": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "PL": [
+        "pl-PL",
+        "en-US"
+    ],
+    "PM": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "PN": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "PH": [
+        "en-US"
+    ],
+    "PE": [
+        "fr-FR",
+        "en-US",
+        "es-US",
+        "zh-Hans-CN"
+    ],
+    "PF": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "PG": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "PA": [
+        "fr-FR",
+        "en-US",
+        "es-US",
+        "zh-Hans-CN"
+    ],
+    "HK": [
+        "zh-Hant-HK",
+        "en-GB"
+    ],
+    "ZA": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "HN": [
+        "fr-FR",
+        "en-US",
+        "es-US",
+        "zh-Hans-CN"
+    ],
+    "HR": [
+        "en-US"
+    ],
+    "HU": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "ZM": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "ID": [
+        "id-ID",
+        "en-US"
+    ],
+    "IE": [
+        "en-US"
+    ],
+    "IL": [
+        "en-US",
+        "he-IL"
+    ],
+    "IN": [
+        "en-GB"
+    ],
+    "YE": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "IS": [
+        "en-US"
+    ],
+    "IT": [
+        "it-IT",
+        "en-US"
+    ],
+    "YT": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "JP": [
+        "ja-JP",
+        "en-US"
+    ],
+    "JO": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "JM": [
+        "fr-FR",
+        "en-US",
+        "es-US",
+        "zh-Hans-CN"
+    ],
+    "KI": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "KH": [
+        "en-US"
+    ],
+    "KG": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "KE": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "KR": [
+        "en-US"
+    ],
+    "KM": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "KN": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "KW": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "KY": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "KZ": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "LA": [
+        "en-US"
+    ],
+    "LC": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "LI": [
+        "fr-FR",
+        "es-US",
+        "en-US",
+        "zh-Hans-CN"
+    ],
+    "LK": [
+        "en-US"
+    ]
+}

@@ -1,0 +1,89 @@
+{
+    "express": {
+        "view cache": false,
+        "view engine": "js",
+        "views": "path:./.build/templates"
+    },
+
+    "view engines": {
+        "js": {
+            "module": "engine-munger",
+            "renderer": {
+                "method": "js",
+                "arguments": [
+                    { "cache": true },
+                    {
+                        "views": "config:express.views",
+                        "view engine": "config:express.view engine",
+                        "i18n": "config:i18n"
+                    }
+                ]
+            }
+        }
+    },
+
+    "i18n": {
+        "contentPath": "path:./locales",
+        "fallback": "en-US"
+    },
+
+
+    "middleware": {
+
+        "static": {
+            "module": {
+                "arguments": [ "path:./.build" ]
+            }
+        },
+
+        "router": {
+            "module": {
+                "arguments": [{ "index": "path:./routes" }]
+            }
+        },
+
+        "fileNotFound": {
+            "enabled": true,
+            "priority": 130,
+            "module": {
+                "name": "kraken-js/middleware/404",
+                "arguments": [ "errors/404" ]
+            }
+        },
+
+        "serverError": {
+            "enabled": true,
+            "priority": 140,
+            "module": {
+                "name": "kraken-js/middleware/500",
+                "arguments": [ "errors/500" ]
+            }
+        },
+        "localeResolver": {
+            "enabled": true,
+            "priority": 105,
+            "module": {
+                "name": "localeResolver/lib/localeResolver",
+                "method": "requestHandler",
+                "arguments": [
+                    ["path:../with.bcp47Locale/resources/BCP47LocaleMapping.json",
+                        "path:../with.bcp47Locale/resources/CountryTimeZoneMapping.json",
+                        "path:../with.bcp47Locale/resources/SupportedLanguageMapping.json",
+                        "path:../with.bcp47Locale/resources/g11nProperties.json"],
+                    {
+                        "ruleFile": "path:../with.bcp47Locale/resources/localeResolution.nools",
+                        "localeFactorsModule": "path:../with.bcp47Locale/lib/localeFactors.js"
+                    }
+                ]
+            }
+        },
+        "krakenlocale": {
+            "enabled": true,
+            "priority": 106,
+            "module": {
+                "name": "path:./lib/krakenlocale"
+            }
+        }
+    }
+
+}
