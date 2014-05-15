@@ -25,6 +25,6 @@ module.exports = function() {
         debug('Locality to be used by template resolution: ',  res.locals.context.locality);
 
         next();
-    }
+    };
 
-}
+};
