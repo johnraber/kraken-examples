@@ -26,8 +26,9 @@ This will automatically set the locale and redirect to the index page in the rig
 ```
 ###What does the sample app demonstrate ?
 
-* [Setting up middleware to populate locale for each request](https://github.com/krakenjs/kraken-examples/blob/master/with.bcp47Locale/controllers/localeResoltuion.js#L20)
+* [Setting up middleware to populate locale for each request](https://github.com/krakenjs/kraken-examples/blob/f23e9a5f859709a49d88f9742c127c143f027640/with.bcp47Locale/config/config.json#L62)
 
-* [Setting the locale in a response](https://github.com/krakenjs/kraken-examples/blob/master/with.bcp47Locale/controllers/localeResoltuion.js#L31)
+* [Setting the locale in a response](https://github.com/krakenjs/kraken-examples/blob/f23e9a5f859709a49d88f9742c127c143f027640/with.bcp47Locale/lib/krakenlocale.js#L13)
 
 * [Adding locale specific property files](https://github.com/krakenjs/kraken-examples/tree/master/with.bcp47Locale/locales)
+
